@@ -16,7 +16,7 @@ Hour 7: Should have given up, but got the script eworking, though I'm still not 
 After introducing myself to programming paradigms, I wanted to learn to create and use functions in Python. Out of all three paradigms, I found functional concepts to be the easiest to grasp compared to others, because instead of writing a new code it allows us to reuse a piece of code by changing different values and reuse it multiple times for different purposes.
 
 I learned to define a function and assign a procedure for it to call a function using parameters and arguments. 
-In addition, I practiced if and else statements and tried to import a function into python. 
+In addition, I practiced if, elif, and else statements and tried to import a function into python. 
 In the course of doing this I discovered several new operators, such as:
 *= 
 **
