@@ -24,3 +24,4 @@ f ....
 tbc
 I also learned more about built in functions in Python. 
 Hour 2: I reviewed DHRI's HTML and CSS tutorials to refresh my memory 
+Hour 3: Classes and Instances - learned to create methods wwithin a class (__init___)
