@@ -25,3 +25,18 @@ tbc
 I also learned more about built in functions in Python. 
 Hour 2: I reviewed DHRI's HTML and CSS tutorials to refresh my memory 
 Hour 3: Classes and Instances - learned to create methods wwithin a class (__init___)
+
+
+Week Seven (03/21)
+this week i learned more expressions and what they mean:
+
++= to sum and reassign (or incriment?) 
+operators: 
+if statement (true/false), don't forget curly brackets around the line of code to run;
+else & else if clauses (I wasn't sure if it will only run if the previous statement was false);
+logical operators: && - logical 'and' operator, will return true if placed between two ooleans that are both true; for example, if it's the weekend and it's sunny out, then we are going to have a picnic . if one them is false, there won't be no picnic.
+if (True && False) == False 
+logical "or" operator || - will retunr true if placed between two booleans and either is true.
+
+
+
