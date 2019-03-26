@@ -31,12 +31,15 @@ Week Seven (03/21)
 this week i learned more expressions and what they mean:
 
 += to sum and reassign (or incriment?) 
-operators: 
-if statement (true/false), don't forget curly brackets around the line of code to run;
-else & else if clauses (I wasn't sure if it will only run if the previous statement was false);
-logical operators: && - logical 'and' operator, will return true if placed between two ooleans that are both true; for example, if it's the weekend and it's sunny out, then we are going to have a picnic . if one them is false, there won't be no picnic.
+
+
+operators: if statement (true/false), don't forget curly brackets around the line of code to run;
+else & else if clauses (I wasn't sure if it will only run if the previous statement was false, note that only one of them will run, never both);
+logical operators: && - logical 'and' operator, will return true if placed between two ooleans that are both true; for example, if it's the weekend and it's sunny out, we are going to have a picnic . if one them is false, there won't be no picnic.
+
 if (True && False) == False 
 logical "or" operator || - will retunr true if placed between two booleans and either is true.
+
 
 
 
