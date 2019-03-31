@@ -40,6 +40,49 @@ logical operators: && - logical 'and' operator, will return true if placed betwe
 if (True && False) == False 
 logical "or" operator || - will retunr true if placed between two booleans and either is true.
 
+03/31 JS Practice 
 
+This Sunday, I wanted to work with Java Script (or ECMAScript?). While it wasn't covered in our lab, it bears many similarities to other PLs. For my practice today I will be referring to Fullstack Academy's practice sets, but will be adding my own definitions and names to arguments. 
 
+#1 Define a function 'Aquafina' that accepts an optional string argument called 'quality'. 'Aquafina' should return quality attributes if 'quality' is present. 
 
+const 'Aquafina' = 'quality' => {
+   if(typeof quality === 'string' && name.length > 0) {
+     return 'Pure water' + 'quality taste' + '!';
+    }
+    
+    return (" "); 
+  }
+ 
+this works, but can be improved by adding template literals(``). So I modify line 61. 
+    
+const 'Aquafina' = 'quality' => {
+   if(typeof quality === 'string' && name.length > 0) {
+     return 'Pure water'${quality!};
+    }
+    
+    return (" "); 
+  }
+
+another way to shorten this is: 
+
+const 'Aquafina' = 'quality' => {
+   if(quality) {
+     return 'Pure water'${quality!};
+    }
+    
+    return (" "); 
+  }
+* a truthy value is a value that is considered true when encountered in a Boolean context. 
+
+another way they suggest is using a ternary operator: 
+
+const 'Aquafina' = 'quality' => {
+   if(quality) {
+     return quality? `Pure Water $(quality!)`
+    }
+    
+    return 'quality!'; 
+  }
+  
+  
