@@ -42,13 +42,13 @@ logical "or" operator || - will retunr true if placed between two booleans and e
 
 03/31 JS Practice 
 
-This Sunday, I wanted to work with Java Script (or ECMAScript?). While it wasn't covered in our lab, it bears many similarities to other PLs. For my practice today I will be referring to Fullstack Academy's practice sets, but will be adding my own definitions and names to arguments. 
+This Sunday I wanted to work with Java Script (or ECMAScript?). While it wasn't covered in our lab, it bears many similarities to other PLs. For my practice today I will be referring to Fullstack Academy's practice sets, but will be adding my own definitions and names to arguments. 
 
 #1 Define a function 'Aquafina' that accepts an optional string argument called 'quality'. 'Aquafina' should return quality attributes if 'quality' is present. 
 
 const 'Aquafina' = 'quality' => {
-   if(typeof quality === 'string' && name.length > 0) {
-     return 'Pure water' + 'quality taste' + '!';
+   if(typeof quality === 'string' && quality.length > 0) {
+     return 'Pure water'  + '!';
     }
     
     return (" "); 
@@ -57,7 +57,7 @@ const 'Aquafina' = 'quality' => {
 this works, but can be improved by adding template literals(``). So I modify line 61. 
     
 const 'Aquafina' = 'quality' => {
-   if(typeof quality === 'string' && name.length > 0) {
+   if(typeof quality === 'string' && quality.length > 0) {
      return 'Pure water'${quality!};
     }
     
@@ -79,10 +79,11 @@ another way they suggest is using a ternary operator:
 
 const 'Aquafina' = 'quality' => {
    if(quality) {
-     return quality? `Pure Water $(quality!)`
+     return quality? `Pure Water $(quality!)`: " ";
     }
     
-    return 'quality!'; 
-  }
-  
+question: do i need to define what to return if 'otherwise' happens? like blank space? 
+
+
+
   
