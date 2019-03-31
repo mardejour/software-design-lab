@@ -85,6 +85,19 @@ const 'Aquafina' = 'quality' => {
     
 question: do i need to define what to return if 'otherwise' happens? like blank space? 
 
+#2. Do you play tetris? 
+define a function `do you play tetris` that accepts a string as an argument. 
+`do you play tetris` should retrn true if the inputted string starts with the letters 's' or 'S', otherwise `do you play tetris` should return false. 
 
-
+const doyouplaytetris = (aStr) => {
+ if(aStr[0] === 's' || (aStr[0] === 'S';) {
+   return true; 
+  }
   
+  return false: 
+  
+  }
+  
+the key here is using Braket Notation. when we use the []  to access an index or key value of a string, array or object. here i used it to access the 0 index which is where the first letter of he string is. 
+
+
