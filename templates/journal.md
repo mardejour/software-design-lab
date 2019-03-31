@@ -78,6 +78,7 @@ const 'Aquafina' = 'quality' => {
 another way they suggest is using a ternary operator: 
 
 const 'Aquafina' = 'quality' => {
+//if some condition ? true return : false return
    if(quality) {
      return quality? `Pure Water $(quality!)`: " ";
     }
