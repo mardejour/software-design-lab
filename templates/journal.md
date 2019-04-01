@@ -113,5 +113,11 @@ const LastCharacter = (strOne, strTwo) => {
        return false; 
    }
 
+#4. Max of Three 
 
-
+Write a function that accepts three number args, 'MaxofThree'should return largest number of the three. 
+const (maxOfThree) = (NumOne, numTwo, numThree) => {
+  if(numOne > numTwo &&  numOne > numThree) return numOne;
+  if (numTwo > numOne && numTwo > numThree) return numTwo; 
+  if numThree > numOne && numThree > numTwo) return numThree; 
+  }
