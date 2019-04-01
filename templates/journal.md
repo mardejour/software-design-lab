@@ -116,8 +116,27 @@ const LastCharacter = (strOne, strTwo) => {
 #4. Max of Three 
 
 Write a function that accepts three number args, 'MaxofThree'should return largest number of the three. 
+
 const (maxOfThree) = (NumOne, numTwo, numThree) => {
   if(numOne > numTwo &&  numOne > numThree) return numOne;
   if (numTwo > numOne && numTwo > numThree) return numTwo; 
   if numThree > numOne && numThree > numTwo) return numThree; 
   }
+
+#5. Every which way
+
+Write a function 'everyWhichWay' that accepts three number arguments. It should:
+- return 'sum' if the sum of the the first two numbers equals the third; 
+- return 'difference' if the first number minus the second equals the third;
+- return 'product' if the product of the first two numbers equals the third; 
+- return 'null' if none of the above are true; 
+
+const everyWhichWay = (numOne, numTwo, result) => {
+  if (numOne + numTwo === result) return 'sum'; 
+  if (numOne - numTwo === result) return 'difference'; 
+  if (numOne * numTwo === result) return 'product';
+  if (numOne / numTwo === result) return 'fraction'; 
+  return null; 
+} 
+  
+
