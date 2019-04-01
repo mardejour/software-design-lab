@@ -100,4 +100,18 @@ const doyouplaytetris = (aStr) => {
   
 the key here is using Braket Notation. when we use the []  to access an index or key value of a string, array or object. here i used it to access the 0 index which is where the first letter of he string is. 
 
+#3. Last Character
+
+Define a function 'LastCharacter' that accepts two strings as arguments. It should return true if both strings end wwith the same character, otherwise it should return false.
+
+//off by one errors 
+const LastCharacter = (strOne, strTwo) => {
+  if (strOne[strOne.length - 1] === strTwo[strTwo.length - 1]) }
+     return true; 
+     }
+     
+       return false; 
+   }
+
+
 
