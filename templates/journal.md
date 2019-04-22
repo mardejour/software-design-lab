@@ -143,7 +143,7 @@ April 21
 
 Learn Python the Hard Way: 27-34
 
-For this week’s journal I’m going to learn about Boolean logic expressions. Zed compares them to scales in music, so I’m really, ahem, “excited” to find out if they are akin. I remember having a really hard time practicing scales, especially remembering finger placements and working up the speed. I had countless nightmares about coming to class underprepared and having to face another “whiplash moment” from my old Soviet teacher, who placed unreasonable demands on her students, by today’s standards anyway. Suffice it to say I wasn’t one of her brightest students. I mean statements like squeeze the sound like a lemon didn't mean much to a 14 year old. In hindsight, I guess I could have tried to be more soulful. Thankfully, that is not a requirement in programming *PHEW*!
+For this week’s journal I’m going to learn about Boolean logic expressions. Zed compares them to scales in music, so I’m really, ahem, “excited” to find out if they are akin. I remember having a really hard time practicing scales, especially remembering finger placements and working up the speed. I had countless nightmares about coming to class underprepared and having to face another “whiplash moment” from my old Soviet teacher, who placed unreasonable demands on her students (by today’s standards anyway). Suffice it to say I wasn’t one of her brightest students. Statements like squeeze the sound like a lemon didn't mean much to a 15 year old. In hindsight, I guess I could have tried to be more soulful. Thankfully, that is not a requirement in programming *PHEW*!
 
 I've taken some time to memorize these logic problems and ow I'm going to type each problem in once again: 
 
