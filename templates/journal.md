@@ -170,9 +170,35 @@ not ("testing" == "testing" and "Maryam" == "So Soulful") - True
 "sound" == "lemon" and (not (3 == 4 or 3 == 3)) False 
 3 == 3 and (not ("testing" == "testing" or "Python" == "Hard")) False 
 
+IMPORTANT DECISIONS:
 
+print ("""you were given a choice between saving the world or everyone you love, which one do you choose? #1 or #2?""")
 
+world = input("> ")
 
+if world == "1":
+    print("this means you can't save yourself")
+    print("what do you do?")
+    print("1. it's my civic duty to save the world")
+    print("2. screw this, i want to live.")
 
+    world = input ("> ")
 
+    if world == "1":
+        print("you are a good samaritan!")
+    elif world == "2":
+            print("how selfish of you!")
+    else:
+        print (f"Well, doing {world} is probably better.")
+        
 
+if world == "2":
+    print("you won't be able to avoid your family for the rest of eternity.")
+    print("1. but i love my dog.")
+    print("2. how can i go back??.")
+    print("3. nooooo.") 
+    jaja = input ("> ")
+    if jaja == "1" or jaja == "2": 
+        print("enjoy your time.")
+        print("sorry")
+    else: print("k, bye")
